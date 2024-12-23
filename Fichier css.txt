@@ -1,0 +1,51 @@
+	Fichier css:
+.asw.css : Gère la mise en page et le style général, avec un focus sur une section promotionnelle contenant un cercle dynamique et des catalogues de véhicules​1
+​2
+
+.cae.css : Styles détaillés pour les sections de voitures, de services, et de contact, incluant des animations, des effets au survol, et un design responsive​3
+
+.ertw.css : Similaire à cae.css, avec des styles adaptés aux pages relatives aux pièces détachées et à la section contact
+
+	Fichier html:
+.index.html : Page d'accueil introduisant la plateforme, avec une présentation visuelle des véhicules et des liens vers les sections "cars" et "services"​2
+
+.car.html : Page listant les modèles de voitures disponibles avec des détails sur les prix et des boutons "Buy Now" pour rediriger vers un processus d'achat​5
+
+.erp.html : Page listant les pièces détachées disponibles, avec une structure similaire à celle de la page des voitures, et des informations sur les services
+
+
+	Cahier des charges:
+
+
+​	1:Objectifs :
+
+Offrir une plateforme intuitive pour la vente de véhicules et de pièces.
+Présenter les produits de manière esthétique et professionnelle.
+Garantir une navigation fluide entre les sections.
+
+	2:Pages principales :
+
+Accueil : Mise en avant des valeurs de la marque.
+Voitures : Liste des modèles avec options d'achat.
+Pièces détachées : Catalogue similaire pour les pièces.
+Services : Description des prestations disponibles.
+Contact : Formulaire pour les clients et localisation via Google Maps.
+
+	3:Technologies utilisées :
+
+HTML5 et CSS3 pour la structure et le style.
+JavaScript pour les fonctionnalités interactives (menu responsive, changement de couleur dynamique).
+
+	4:Responsive Design :
+
+Adaptation aux écrans de différentes tailles, comme prévu dans les fichiers CSS.
+
+	5:Graphismes :
+
+Utilisation d'images attrayantes (véhicules, pièces).
+Couleurs dominantes : rouge (#ea1f33), noir, et blanc pour une cohérence visuelle.
+
+	6:Intégration :
+
+Lien vers des réseaux sociaux et d'autres pages internes.
+Si vous avez besoin de précisions ou d'un cahier de charges plus formalisé, je peux vous assister davantage.

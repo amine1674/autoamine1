@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Autoamine</title>
+    <link rel="stylesheet" href="asw.css">
+</head>
+
+<body>
+    <section>
+        <div class="cercle"></div>
+        <header>
+            <a href="#">
+                <img src="logo.png" class="logo">
+            </a>
+        </header>
+        <div class="container">
+            <div class="texte">
+                <h2>Vehicle specialist<span>Sporty & Luxurious</span></h2>
+                <p>Buying, selling and advising on any luxurious, sporty vehicle thanks to
+                    to a team of professionals. Trusting Autoamine means
+                    The assurance of high-end quality follow-up and service</p>
+                <a href="car.html">Cars</a>
+            </div>
+            <div class="imgBox">
+                <img src="ferari.png" class="ferari">
+            </div>
+        </div>
+        <ul class="catalogue">
+            <li><img src="ferari.png" onclick="imgSlider('ferari.png');changeCouleurCercle('#f43839')"></li>
+            <li><img src="Lambo.png" onclick="imgSlider('Lambo.png');changeCouleurCercle('#2dc250')"></li>
+            <li><img src="amg.png" onclick="imgSlider('amg.png');changeCouleurCercle('#939090')"></li>
+            <li><img src="bentley.png" onclick="imgSlider('bentley.png');changeCouleurCercle('#9dbfcc')">
+            </li>
+        </ul>
+        <ul class="reseau">
+            <li><a href="https://www.facebook.com/"><img src="fb (1).png"></a></li>
+            <li><a href="https://www.instagram.com/prvv.amiii.nee"><img src="insta.png"></a></li>
+            <li><a href="https://www.youtube.com/"><img src="youtube.png"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.ferari').src = anything;
+        }
+        function changeCouleurCercle(color) {
+            const cercle = document.querySelector('.cercle');
+            cercle.style.background = color;
+        }
+
+    </script>
+</body>
+
+</html>
